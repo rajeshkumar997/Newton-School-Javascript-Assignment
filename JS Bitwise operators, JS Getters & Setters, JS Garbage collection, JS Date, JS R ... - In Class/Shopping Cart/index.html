@@ -1,0 +1,31 @@
+<h1>Grocery List</h1>
+<!--input fields -->
+<div class="container">
+  <div>
+    <label for="item-name-input">Item Name</label>
+    <input id="item-name-input" type="text" required name="itemName" placeholder="Enter Item Name">
+  </div>
+  <div>
+    <label for="item-price-input">Price</label>
+    <input id="item-price-input" type="text" required name="priceTag" placeholder="Enter Price">
+  </div>
+  <button type="submit" id="addButton">Add</button>
+</div>
+<table>
+  <thead>
+    <tr>
+      <th>Sr. No.</th>
+      <th>Title</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody id="table-body">
+
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">Total Price</td>
+      <td data-ns-test="grandTotal" id="total-price">0</td>
+    </tr>
+  </tfoot>
+</table>
